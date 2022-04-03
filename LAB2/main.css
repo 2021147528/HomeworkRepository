@@ -1,0 +1,74 @@
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+    background-image: linear-gradient(to right, lightblue 9%, white 91%);
+}
+
+.Signupform{
+    width: 400px;
+    height: 620px;
+    box-shadow: -15px 20px 2px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 100px auto 0;
+    text-align: center;
+}
+
+.signinform{
+    width: 400px;
+    box-shadow: -15px 20px 2px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 100px auto 0;
+    text-align: center;
+}
+
+.Signupform h1{
+    color: black;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.binput{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 0;
+    width: 50%;
+    border: 1px solid rgb(153, 153, 153);
+}
+
+button{
+    color: rgb(251, 251, 251);
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 20px 10px;
+}
+
+.signupbt{
+    color: rgb(77, 48, 241);
+    background-color: white;
+    border: 2px solid rgb(77, 48, 241);
+}
+
+.loginbt{
+    color: rgb(83, 189, 171);
+    background-color: white;
+    border: 2px solid rgb(83, 189, 171);
+}
+
+.signinbt{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.signupinst{
+    color: rgb(250, 50, 50);
+    background-color: white;
+    border: 2px solid rgb(250, 50, 50);
+}
+
+hr{
+    width: 80%;
+}
