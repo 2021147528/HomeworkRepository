@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/HomeworkRepository/LAB4/main.css">
+    <title>Signup Form</title>
+</head>
+<body class="signup">
+    <div class="Signupform">
+        <form action="/HomeworkRepository/LAB4/login.html">
+            <h1>Sign Up</h1>
+            <hr class="signclass">
+            <label>First name: <!--input 1-->
+                <input type="text" class="binput" placeholder="John" autofocus/><br>
+            </label>
+            <label>Last name: <!--input 2-->
+                <input type="text" class="binput" placeholder="Doe"/><br>
+            </label>
+            <label>Email: <!--input 3-->
+                <input type="email" class="binput" placeholder="email@domain.com" required /><br>
+            </label>
+            <label>Age: <!--input 4-->
+                <input type="number" class="binput" placeholder="Must be over 15" step="1" min="15" required><br>
+            </label>
+            <label>Phone Number: <!--input 5-->
+                <input type="tel" class="binput" placeholder="010-1234-1234" pattern="\d{3}-\d{4}-\d{4}" required /><br>
+            </label>
+            <lable>Username: <!--input 6-->
+                <input type="text" class="binput" maxlength="10" placeholder="&lt; 10 characters" required><br>
+            </lable>
+            <lable>Password: <!--input 7-->
+                <input type="password" class="binput" minlength="5" required placeholder="min 5 characters"><br>
+            </lable>
+            <lable>Confirm Password: <!--input 8-->
+                <input type="password" class="binput" minlength="5" required placeholder="Confirm Password"><br>
+            </lable>
+            <button type="submit" class="signupbt">Sign Up</button>
+            <a href="/HomeworkRepository/LAB4/login.html">
+                <button type="button" class="loginbt">Login Instead</button>
+            </a>
+        </form>
+    </div>
+</body>
+</html>

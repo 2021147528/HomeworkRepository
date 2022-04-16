@@ -1,0 +1,196 @@
+body{
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+
+.signup, .signin {
+    background-image: linear-gradient(to right, lightblue 9%, white 91%);
+}
+
+.Signupform{
+    width: 400px;
+    height: 620px;
+    box-shadow: -15px 20px 2px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.signinform{
+    width: 400px;
+    box-shadow: -15px 20px 2px;
+    background-color: #fff;
+    padding: 20px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.Signupform h1{
+    color: black;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+.binput{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    width: 50%;
+    border: 1px solid rgb(153, 153, 153);
+}
+
+button{
+    color: rgb(251, 251, 251);
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    margin: 20px 10px;
+}
+
+.signupbt{
+    color: rgb(77, 48, 241);
+    background-color: white;
+    border: 2px solid rgb(77, 48, 241);
+}
+
+.loginbt{
+    color: rgb(83, 189, 171);
+    background-color: white;
+    border: 2px solid rgb(83, 189, 171);
+}
+
+.signinbt{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+}
+
+.signupinst{
+    color: rgb(250, 50, 50);
+    background-color: white;
+    border: 2px solid rgb(250, 50, 50);
+}
+
+.signclass{
+    width: 80%;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    background-color: #333;
+}
+
+.navbar a{
+    color: white;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.thalesmain {
+    border: 1px solid black;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.hrthales{
+    width: 100%;
+    color: black;
+    margin: 25px auto 25px auto;
+}
+
+.thalesmain h1{
+    display: flex;
+    margin-top: 10px;
+    /*animation: move-across 4s 1s ease-in-out;*/
+}
+
+.flexprod {
+    display: flex;
+    background-color: #DCDCDC;
+    flex-flow: row wrap;
+}
+
+.flexprod > div {
+    display: flex;
+    border: 1px solid #333;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 10px 10px 10px;
+    flex-grow: 4;
+}
+
+
+/*@keyframes move-across {
+    0%{
+        transform: translateX(0);
+    }
+    50%{
+        transform: translateX(685px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}*/
+
+.sam, .app, .mi, .onep{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: transform 2s;
+    justify-content: center;
+    align-items: center;
+}
+
+.about {
+    text-align: left;
+}
+
+.aboutp {
+    columns: 348px 2;
+    column-rule: 1px outset black;
+}
+
+/*.sam:hover {
+    transform: rotate(360deg);
+}
+
+
+.app:hover {
+    transform: scale(120%, 120%);
+}*/
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar a {
+        border: 1px solid rgb(255, 255, 255, 0.5);
+    }
+    .abouth3 {
+        text-align: center;
+    }
+    .flexprod {
+        flex-flow: column;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .navbar a {
+        border: 1px solid rgb(255, 255, 255, 0.5);
+    }
+    .abouth3 {
+        text-align: center;
+    }
+    .flexprod > div {
+        flex: 40%;
+    }
+}
