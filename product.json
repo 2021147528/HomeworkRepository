@@ -1,60 +1,57 @@
-{
-    "products": [
-        {
-            "prodName": "Apple",
-            "category": "IOS",
-            "price": "2000",
-            "image": "/Apple.png",
-            "des": "Explore Iphones developed by Apple."
-        },
-        {
-            "prodName": "Samsung",
-            "category": "OneUI",
-            "price": "1100",
-            "image": "/Samsung.png",
-            "des": "Newest and latest samsung galaxy lineup."
-        },
-        {
-            "prodName": "Xiaomi",
-            "category": "MIUI",
-            "price": "500",
-            "image": "/Xiaomi.png",
-            "des": "Affordable phones with great performance."
-        },
-        {
-            "prodName": "OnePlus",
-            "category": "OxygenOS",
-            "price": "1000",
-            "image": "/OnePlus.png",
-            "des": "High-end phones made for consumers."
-        },
-        {
-            "prodName": "Huawei",
-            "category": "HarmonyOS",
-            "price": "600",
-            "image": "/Huawei.png",
-            "des": "Affordable phones made with style."
-        },
-        {
-            "prodName": "Sony",
-            "category": "Xperia",
-            "price": "1000",
-            "image": "/Sony.png",
-            "des": "For sound and camera."
-        },
-        {
-            "prodName": "Oppo",
-            "category": "ColorOS",
-            "price": "400",
-            "image": "/OPPO.png",
-            "des": "Gets all the work done without issue."
-        },
-        {
-            "prodName": "Google",
-            "category": "Android",
-            "price": "1100",
-            "image": "/Google.png",
-            "des": "Made with elegance and power."
-        }
-    ]
-}
+[{
+        "prodName": "Apple",
+        "category": "IOS",
+        "price": "2000",
+        "image": "Apple.png",
+        "des": "Explore Iphones developed by Apple."
+    },
+    {
+        "prodName": "Samsung",
+        "category": "OneUI",
+        "price": "1100",
+        "image": "Samsung.png",
+        "des": "Newest and latest samsung galaxy lineup."
+    },
+    {
+        "prodName": "Xiaomi",
+        "category": "MIUI",
+        "price": "500",
+        "image": "Xiaomi.png",
+        "des": "Affordable phones with great performance."
+    },
+    {
+        "prodName": "OnePlus",
+        "category": "OxygenOS",
+        "price": "1000",
+        "image": "OnePlus.png",
+        "des": "High-end phones made for consumers."
+    },
+    {
+        "prodName": "Huawei",
+        "category": "HarmonyOS",
+        "price": "600",
+        "image": "Huawei.png",
+        "des": "Affordable phones made with style."
+    },
+    {
+        "prodName": "Sony",
+        "category": "Xperia",
+        "price": "1000",
+        "image": "Sony.png",
+        "des": "For sound and camera."
+    },
+    {
+        "prodName": "Oppo",
+        "category": "ColorOS",
+        "price": "400",
+        "image": "OPPO.png",
+        "des": "Gets all the work done without issue."
+    },
+    {
+        "prodName": "Google",
+        "category": "Android",
+        "price": "1100",
+        "image": "Google.png",
+        "des": "Made with elegance and power."
+    }
+]
